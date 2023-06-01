@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- Font Family & Font font-size -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;900&display=swap"
+      rel="stylesheet"
+    />
+    <!-- CSS styleSheet -->
+    <link rel="styleSheet" href="./css/gmat-profile-mba-journey.css" />
+    <!-- Title and Thumbnail -->
+    <meta
+      property="og:title"
+      content="Score 750+ GMAT on 1st attempt - CareerLabs - GMAT"
+    />
+    <meta
+      property="og:image"
+      content="https://assets.thecareerlabs.com/landing_pages/gmat/Assets/Thumbnail_Elev8-GMAT.jpg"
+    />
+    <link
+      rel="icon"
+      href="https://gmat-prep.netlify.app/Assets/images/favicon.ico"
+      type="image/icon-type"
+    />
+    <meta
+      property="og:url"
+      content="https://gmatprep.thecareerlabs.com/gmat-coaching"
+    />
+    <title>GMAT PROFILE MBA JOURNEY</title>
+  </head>
+  <body>
+    <!-- Section - 1 -->
+    <section class="gmat-profile-sec-2">
+      <div class="heading">
+        <p>
+          Crack <span>GMAT - Verbal</span> & <span>GMAT - Quant</span>,<br />
+          Under The Guidance Of <span>Certified Trainers</span>
+        </p>
+      </div>
+      <div class="sec-2-cols">
+        <div class="img-cont-col gmat-slide-1st-mobile-carousel">
+          <img
+            src="Assets/gmat-profile-mba-journey/Saikiran D-img.png"
+            alt="Saikiran-img"
+            loading="lazy"
+          />
+          <div class="img-cont-1">
+            <p>
+              Academics Head & AVP, CareerLabs<br />
+              GMAT-V Trainer Since 2009<br />
+              CELTA-Certified English Tutor
+            </p>
+          </div>
+        </div>
+        <div class="img-cont-col gmat-slide-1st-mobile-carousel">
+          <img
+            src="Assets/gmat-profile-mba-journey/Mohammed Junaid-img.png"
+            alt="Saikiran-img"
+            loading="lazy"
+          />
+          <div class="img-cont-2">
+            <p>
+              Sr. Academic Manager, CareerLabs<br />
+              Competitive Exams Trainer<br />
+              UoMadras - Quant Maestro
+            </p>
+          </div>
+        </div>
+      </div>
+      <div class="gmat-profile-mba-dot" style="margin-top: -1em">
+        <span
+          class="gmat-1-dot"
+          onclick="slide1st(1,'gmat-slide-1st-mobile-carousel','gmat-1-dot')"
+        ></span>
+        <span
+          class="gmat-1-dot"
+          onclick="slide1st(2,'gmat-slide-1st-mobile-carousel','gmat-1-dot')"
+        ></span>
+      </div>
+    </section>
+    <script>
+      // Carousel
+      var slideIndex = 1;
+      // 1st
+      showSlides(slideIndex, "gmat-slide-1st-mobile-carousel", "gmat-1-dot");
+
+      function slide1st(n, s, d) {
+        showSlides(n, s, d);
+      }
+
+      function showSlides(n, slide, dot) {
+        var slides = document.getElementsByClassName(slide);
+        var dots = document.getElementsByClassName(dot);
+
+        for (var i = 0; i < slides.length; i++) {
+          slides[i].style.display = "none";
+        }
+        for (var i = 0; i < dots.length; i++) {
+          dots[i].className = dots[i].className.replace(
+            "gmat-profile-active",
+            ""
+          );
+        }
+
+        slides[n - 1].style.display = "block";
+        dots[n - 1].className += " gmat-profile-active";
+      }
+
+      // auto carousel
+      var autoSlideIndex = 0;
+      function autoscroll() {
+        autoscroll1("gmat-slide-1st-mobile-carousel", "gmat-1-dot");
+      }
+
+      function autoscroll1(f, n) {
+        var i;
+        var x = document.getElementsByClassName(f);
+        var dot = document.getElementsByClassName(n);
+        for (i = 0; i < x.length; i++) {
+          x[i].style.display = "none";
+        }
+        for (var i = 0; i < dot.length; i++) {
+          dot[i].className = dot[i].className.replace(
+            "gmat-profile-active",
+            ""
+          );
+        }
+        autoSlideIndex++;
+        if (autoSlideIndex > x.length) {
+          autoSlideIndex = 1;
+        }
+        x[autoSlideIndex - 1].style.display = "block";
+        dot[autoSlideIndex - 1].className += " gmat-profile-active";
+      }
+
+      //carousel enabled only on mobile screen
+      let screen = window.screen;
+      if (screen.width >= 320 && screen.width <= 767) {
+        setInterval(autoscroll, 3000);
+      }
+    </script>
+  </body>
+</html>

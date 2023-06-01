@@ -1,0 +1,152 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+.gmat-profile-sec-2 {
+  padding: 2rem 3rem;
+  background: linear-gradient(
+    180deg,
+    rgba(253, 244, 204, 0) 0%,
+    #fcd8b8 129.28%
+  );
+}
+.gmat-profile-sec-2 .heading p {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 2.6rem;
+  line-height: 4rem;
+  text-align: center;
+  text-transform: capitalize;
+  color: #3e3e4c;
+}
+.gmat-profile-sec-2 .heading span {
+  color: #716cc7;
+  font-weight: 600;
+}
+.gmat-profile-sec-2 .sec-2-cols {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.gmat-profile-sec-2 .sec-2-cols .img-cont-1 {
+  padding: 0.2rem 0;
+}
+.gmat-profile-sec-2 .sec-2-cols .img-cont-1 p {
+  margin-left: 12rem;
+  margin-right: 4.5rem;
+}
+.gmat-profile-sec-2 .sec-2-cols .img-cont-2 p {
+  margin-left: 4.8rem;
+  margin-right: 12.3rem;
+}
+.gmat-profile-sec-2 .sec-2-cols p {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 1rem;
+  line-height: 1.4rem;
+  text-align: center;
+  text-transform: capitalize;
+  color: #000000;
+  background-color: #ffd2a9;
+  padding: 1rem;
+}
+.gmat-profile-sec-2 .sec-2-cols .img-cont-col {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.gmat-profile-sec-2 .sec-2-cols img {
+  width: 75%;
+  margin: auto;
+}
+
+/* Carousel Dots hide */
+.gmat-profile-mba-dot {
+  text-align: center;
+}
+
+@media (min-width: 767px) {
+  .gmat-profile-mba-dot {
+    display: none;
+  }
+  .gmat-slide-1st-mobile-carousel {
+    display: flex !important;
+  }
+}
+/* Carousel */
+.gmat-1-dot {
+  background-color: #bcbfef;
+  width: 13px;
+  height: 13px;
+  margin: 1.5em 5px;
+  display: inline-block;
+  border-radius: 50%;
+  cursor: pointer;
+}
+.gmat-profile-active {
+  background-color: #04094d !important;
+}
+
+/* ************-------------Tab View------------***************** */
+
+@media (min-width: 767px) and (max-width: 1024px) {
+  .gmat-profile-sec-2 {
+    padding: 2rem;
+  }
+  .gmat-profile-sec-2 .heading p {
+    font-size: 2rem;
+    line-height: 3rem;
+  }
+  .gmat-profile-sec-2 .sec-2-cols img {
+    width: 80%;
+  }
+  .gmat-profile-sec-2 .sec-2-cols .img-cont-1 p {
+    margin-left: 6.8rem;
+    margin-right: 2rem;
+  }
+  .gmat-profile-sec-2 .sec-2-cols p {
+    font-size: 0.8rem;
+    line-height: 1.4rem;
+    padding: 0.5rem;
+  }
+  .gmat-profile-sec-2 .sec-2-cols .img-cont-2 p {
+    margin-left: 2rem;
+    margin-right: 7rem;
+  }
+}
+
+/* *****************------------Mobile View---------------************************ */
+@media (max-width: 767px) {
+  /* section 1 */
+  .gmat-profile-sec-2 {
+    padding: 1rem;
+  }
+  .gmat-profile-sec-2 .heading p {
+    font-size: 1.5rem;
+    line-height: 2.4rem;
+  }
+  .gmat-profile-sec-2 .sec-2-cols img {
+    width: 100%;
+    margin: unset;
+  }
+  .gmat-profile-sec-2 .sec-2-cols p {
+    font-size: 0.8rem;
+    line-height: 1.4rem;
+    padding: 0.5rem;
+  }
+  .gmat-profile-sec-2 .sec-2-cols .img-cont-1 p {
+    margin-left: 5.6rem;
+    margin-right: 0rem;
+  }
+  .gmat-profile-sec-2 .sec-2-cols .img-cont-2 p {
+    margin-left: 0;
+    margin-right: 5.6rem;
+  }
+  /* Carousel */
+  .gmat-profile-mba-dot {
+    display: block;
+    margin-top: 5px;
+  }
+}
