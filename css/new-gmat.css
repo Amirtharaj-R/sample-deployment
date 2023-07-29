@@ -1,0 +1,760 @@
+* {
+  padding: 0;
+  margin: 0;
+  font-family: "poppins";
+}
+@media (min-width: 1024px) {
+  .width-for-sec {
+    width: 78vw;
+    margin: auto;
+  }
+}
+
+/* Desktop Hidden */
+.header-cols .mobile-views {
+  display: none;
+}
+
+#nav_img {
+  display: none;
+}
+
+#close_img {
+  display: none;
+}
+.mob-break {
+  display: none;
+}
+.mobile-views {
+  display: none;
+}
+
+/* Header-Section */
+.gmat-header {
+  background: #3c0d7d;
+  position: fixed;
+  width: 100%;
+  z-index: 11;
+}
+
+.gmat-header .header-cols {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0.5rem 4rem;
+}
+
+.gmat-header .header-cols .nav-content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.gmat-header .header-cols .nav-content a {
+  font-size: 1.1vw;
+  font-weight: 700;
+  color: #ffffffb2;
+  cursor: pointer;
+  padding-right: 3rem;
+  text-decoration: none;
+  transition: 0.3s;
+}
+
+.gmat-header .header-cols .nav-content a:hover {
+  color: #ffffff;
+}
+.gmat-header .header-cols .nav-content .btn-col .button {
+  background: #15baa6;
+  border: solid 1px #ffffff;
+  border-radius: 7px;
+  padding: 0.2rem 1rem;
+  cursor: pointer;
+  transition: 0.3s;
+}
+.gmat-header .header-cols .nav-content .btn-col .button:hover,
+.gmat-header .header-cols .nav-content .btn-col button:hover {
+  color: #ffffff;
+}
+.gmat-header .header-cols .nav-content .btn-col .button i {
+  font-size: 1.1rem;
+  padding-right: 0.5rem;
+}
+.gmat-header .header-cols .nav-content .btn-col .button a {
+  padding: 0;
+}
+.gmat-header .header-cols .nav-content .btn-col button {
+  background: #15baa6;
+  font-size: 0.9rem;
+  font-weight: 600;
+  color: var(--white, #fff);
+  padding: 0rem;
+  border: none;
+  cursor: pointer;
+  transition: 0.3s;
+}
+/* Section 1 */
+.gmat-sec-1 {
+  padding: 3rem 2rem;
+  background: linear-gradient(167deg, #682cba 0%, #4a1297 100%);
+  padding-top: 5rem;
+}
+
+.gmat-sec-1 .sec-1-cols {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.gmat-sec-1 .sec-1-cols .head-cont-col .head-col h3 {
+  color: #fff;
+  font-size: 3vw;
+  font-weight: 600;
+  line-height: 4.5vw;
+  text-transform: capitalize;
+  padding-bottom: 1rem;
+}
+
+.gmat-sec-1 .sec-1-cols .head-cont-col .head-col h3 span {
+  font-weight: 700;
+  color: #15baa6;
+}
+
+.gmat-sec-1 .sec-1-cols .head-cont-col .content-col h5 {
+  color: #fff;
+  font-size: 1.1vw;
+  font-weight: 400;
+  line-height: 4vw;
+  text-transform: capitalize;
+}
+
+.gmat-sec-1 .sec-1-cols .head-cont-col .btn-col {
+  margin-top: 1rem;
+}
+
+.gmat-sec-1 .sec-1-cols .head-cont-col .btn-col button {
+  color: var(--white, #fff);
+  text-align: center;
+  font-size: 1.3vw;
+  border-radius: 15px;
+  border: none;
+  font-weight: 500;
+  padding: 1.3vw 2.3vw;
+  cursor: pointer;
+  background: #15baa6;
+}
+
+.gmat-sec-1 .sec-1-cols .img-col {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.gmat-sec-1 .sec-1-cols .img-col img {
+  width: 40vw;
+  height: 80vh;
+}
+/* Marquee */
+/* Marquee Section */
+.marquee-sec {
+  background: #c197fbad;
+  padding: 0.5rem 0;
+}
+
+.marquee-sec .marquee-sec-cols {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.marquee-sec .marquee-sec-cols .head-col {
+  width: 20%;
+}
+
+.marquee-sec .marquee-sec-cols .content-col {
+  width: 80%;
+}
+
+.marquee-sec .marquee-sec-cols .content-col marquee {
+  padding-top: 0.3rem;
+  margin-bottom: -0.5rem;
+}
+
+.marquee-sec .marquee-sec-cols .content-col img {
+  margin-right: 2.5rem;
+}
+
+.marquee-sec .marquee-sec-cols .head-col h5 {
+  color: #561aa9;
+  font-size: 1.4rem;
+  text-align: right;
+  font-weight: 600;
+  line-height: 1.4rem;
+  text-transform: capitalize;
+  padding-right: 2rem;
+}
+.scroll-parent {
+  position: relative;
+  width: 80vw;
+  height: auto;
+  overflow: hidden;
+  width: auto;
+}
+
+.scroll-parent .scroll-element {
+  width: calc(250px * 12);
+  display: flex;
+  animation: primary 20s linear infinite;
+}
+@keyframes primary {
+  0% {
+    transform: translateX(0);
+  }
+  100% {
+    transform: translateX(calc(-250px * 6));
+  }
+}
+
+/* section - 3 */
+.gmat-sec-3 {
+  padding: 3rem 4rem;
+}
+.gmat-sec-3 .sec-3-cols {
+  display: flex;
+  justify-content: space-around;
+  /* gap: 22vw; */
+  align-items: center;
+}
+.gmat-sec-3 .sec-3-cols .content-col {
+  width: 50%;
+}
+.gmat-sec-3 .sec-3-cols .content-col h3,
+.gmat-sec-3 .sec-3-cols .video-col h3 {
+  color: #373737;
+  font-size: 2.5vw;
+  font-weight: 500;
+  line-height: 4.5vw;
+  text-transform: capitalize;
+  padding-bottom: 1rem;
+}
+.gmat-sec-3 .sec-3-cols .content-col p {
+  color: #373737;
+  font-size: 1.6vw;
+  font-weight: 400;
+  line-height: 3vw;
+  text-transform: capitalize;
+  padding-bottom: 1rem;
+}
+.gmat-sec-3 .sec-3-cols .content-col h3 span,
+.gmat-sec-3 .sec-3-cols .video-col h3 span {
+  color: #420d8c;
+  font-weight: 700;
+}
+.gmat-sec-3 .sec-3-cols .content-col .btn-col {
+  border-radius: 13px;
+  background: #15baa6;
+  text-align: center;
+  width: 18vw;
+  cursor: pointer;
+  padding: 1vw 0vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.gmat-sec-3 .sec-3-cols .content-col .btn-col button {
+  color: var(--white, #fff);
+  text-align: center;
+  font-size: 1.4vw;
+  background: #15baa6;
+  font-weight: 600;
+  line-height: 1vw;
+  padding-right: 1rem;
+  border: none;
+  border-radius: 13px;
+  cursor: pointer;
+}
+.gmat-sec-3 .sec-3-cols .content-col .btn-col i {
+  color: #fff;
+  font-size: 2vw;
+  font-weight: 200;
+}
+.gmat-sec-3 .sec-3-cols .video-col {
+  background-image: url("../Assets/new-gmat/video-back-img.png");
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
+  width: 50%;
+  text-align: center;
+}
+.gmat-sec-3 .sec-3-cols .video-col iframe {
+  width: 35vw;
+  height: 40vh;
+  margin-top: 3rem;
+  border-radius: 13px;
+}
+/* Section - 4 */
+.gmat-sec-4 {
+  background-image: url("../Assets/gre/new-gre/form-sec.svg");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  padding: 4rem 0;
+}
+.gmat-sec-4 .head-col {
+  padding: 3rem 0;
+  padding-bottom: 4rem;
+}
+
+.gmat-sec-4 .head-col h3 {
+  color: #3e3e4c;
+  text-align: center;
+  font-size: 2rem;
+  font-weight: 500;
+  line-height: 2.3rem;
+  text-transform: capitalize;
+}
+
+.gmat-sec-4 .head-col h3 span {
+  color: #420d8c;
+  font-weight: 700;
+}
+
+.gmat-sec-4 .gmat-sec-4-cont-form {
+  padding: 2rem;
+  border-radius: 50px;
+  background: #682cba;
+  box-shadow: 0px 8px 22px 0px rgba(0, 0, 0, 0.2);
+}
+
+.gmat-sec-4 .gmat-sec-4-cont-form .form-cols {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.gmat-sec-4 .gmat-sec-4-cont-form form p {
+  color: #fff;
+  text-align: left;
+  font-size: 1rem;
+  font-weight: 600;
+  line-height: 2rem;
+  text-transform: capitalize;
+}
+
+.gmat-sec-4 .gmat-sec-4-cont-form form input {
+  border-radius: 10px;
+  border: 0.515px solid #414141;
+  background: #fff5fa;
+  padding: 0.4rem 0.7rem;
+  width: 100%;
+  height: 40px;
+}
+
+.gmat-sec-4 .gmat-sec-4-cont-form form .col {
+  width: 40%;
+  margin-top: 2rem;
+}
+
+.gmat-sec-4 .gmat-sec-4-cont-form form input::placeholder {
+  color: rgba(0, 0, 0, 0.4);
+  text-align: left;
+  font-size: 1rem;
+  font-weight: 500;
+  line-height: 1.3rem;
+  text-transform: capitalize;
+}
+
+.gmat-sec-4 .gmat-sec-4-cont-form form .check-box {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  align-items: center;
+  padding-top: 1.5rem;
+}
+
+.gmat-sec-4 .gmat-sec-4-cont-form form .check-box input[type="checkbox"] {
+  width: 20px;
+}
+
+.gmat-sec-4 .gmat-sec-4-cont-form form .check-box label {
+  color: #fff;
+  font-size: 1rem;
+  font-weight: 500;
+  line-height: 2rem;
+  padding-left: 0.5rem;
+  text-transform: capitalize;
+}
+
+.gmat-sec-4 .gmat-sec-4-cont-form form .btn-col {
+  text-align: center;
+  margin-top: 1rem;
+  margin-bottom: -4rem;
+}
+
+.gmat-sec-4 .gmat-sec-4-cont-form form .btn-col button {
+  color: var(--white, #fff);
+  text-align: center;
+  font-size: 1.2rem;
+  font-weight: 700;
+  line-height: 1rem;
+  padding: 1.8rem 2.5rem;
+  cursor: pointer;
+  border: none;
+  border-radius: 18px;
+  background: var(--secondary-clr, #15baa6);
+}
+
+/* -----------**************Tab-View***************----------------- */
+@media (min-width: 768px) and (max-width: 1024px) {
+  /* Tab Hiddens */
+  .mob-break {
+    display: none;
+  }
+  /* Header-Section */
+  .gmat-header .logo-col img {
+    width: 80%;
+  }
+
+  .gmat-header .header-cols {
+    padding: 0.5rem 2rem;
+  }
+
+  .gmat-header .header-cols .nav-content a {
+    font-size: 0.6rem;
+    padding-right: 1.5rem;
+  }
+
+  .gmat-header .header-cols .nav-content .btn-col button {
+    font-size: 0.8rem;
+    padding: 0rem;
+  }
+  .gmat-header .header-cols .nav-content .btn-col button i {
+    font-size: 0.3rem;
+    padding-right: 0.7rem;
+  }
+  /* Section - 1 */
+  .gmat-sec-1 .sec-1-cols .img-col img {
+    width: 40vw;
+    height: 35vh;
+  }
+  /* marquee sec */
+  .marquee-sec .marquee-sec-cols .head-col h5 {
+    font-size: 1rem;
+  }
+  .marquee-sec .marquee-sec-cols .content-col img {
+    margin-right: 0;
+    width: 68%;
+  }
+  /* Section -3  */
+  .gmat-sec-3 {
+    padding: 2rem;
+  }
+  .gmat-sec-3 .sec-3-cols .video-col iframe {
+    width: 44vw;
+    height: 19vh;
+    margin-top: 3rem;
+    border-radius: 13px;
+  }
+  /* Section -  4 */
+  .gmat-sec-4 {
+    padding: 0.5rem 2rem;
+  }
+
+  .gmat-sec-4 .head-col {
+    padding: 1rem 0;
+    padding-bottom: 2rem;
+  }
+
+  .gmat-sec-4 .head-col h3 {
+    font-size: 1.5rem;
+    line-height: 2.3rem;
+  }
+
+  .gmat-sec-4 .gmat-sec-4-cont-form {
+    padding: 1rem;
+    border-radius: 30px;
+  }
+
+  .gmat-sec-4 .gmat-sec-4-cont-form form .col {
+    margin-top: 1rem;
+  }
+
+  .gmat-sec-4 .gmat-sec-4-cont-form form p {
+    font-size: 0.8rem;
+  }
+
+  .gmat-sec-4 .gmat-sec-4-cont-form form input {
+    border-radius: 10px;
+    padding: 0.5rem 0.7rem;
+    height: 20px;
+  }
+
+  .gmat-sec-4 .gmat-sec-4-cont-form form input::placeholder {
+    font-size: 0.7rem;
+  }
+
+  .gmat-sec-4 .gmat-sec-4-cont-form form .check-box input[type="checkbox"] {
+    width: 15px;
+  }
+
+  .gmat-sec-4 .gmat-sec-4-cont-form form .check-box label {
+    font-size: 0.8rem;
+    padding-left: 0.5rem;
+  }
+
+  .gmat-sec-4 .gmat-sec-4-cont-form form .btn-col {
+    margin-top: 1rem;
+    margin-bottom: -2rem;
+  }
+
+  .gmat-sec-4 .gmat-sec-4-cont-form form .btn-col button {
+    font-size: 1rem;
+    padding: 1rem 2rem;
+    border-radius: 18px;
+  }
+}
+
+/* -----------**************Mobile-View***************----------------- */
+
+@media (max-width: 767px) {
+  /* enable on mobile */
+  .header-cols .mobile-views {
+    display: block;
+  }
+
+  #nav_img {
+    display: block;
+  }
+
+  #navcontent {
+    display: none;
+  }
+
+  .break-hidden {
+    display: none;
+  }
+  .mob-break {
+    display: inline;
+  }
+  .Desktop-views {
+    display: none;
+  }
+  .mobile-views {
+    display: block;
+  }
+
+  /* Header Section */
+  .gmat-header {
+    border-radius: 0px 0px 15px 15px;
+  }
+
+  .gmat-header .logo-col img {
+    width: 80%;
+  }
+
+  .gmat-header .header-cols {
+    display: block;
+    padding: 0.5rem 1rem;
+  }
+
+  .gmat-header .header-cols .logo-col {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+  }
+
+  .gmat-header .header-cols .nav-content a {
+    font-size: 0.9rem;
+    line-height: 3rem;
+    padding-right: 0;
+    display: block;
+    border-bottom: 1px solid #ffffff3d;
+  }
+  .gmat-header .header-cols .nav-content .btn-col a {
+    border: none;
+  }
+  .gmat-header .header-cols .nav-content .btn-col .button {
+    background: none;
+    border: none;
+  }
+  .gmat-header .header-cols .nav-content .btn-col .button i {
+    /* font-size: 1.3rem;
+    padding-right: 0.7rem; */
+    display: none;
+  }
+  .gmat-header .header-cols .nav-content .btn-col .button {
+    padding: 0;
+  }
+  .gmat-header .header-cols .nav-content .btn-col button {
+    font-size: 0.9rem;
+    background: none;
+    background-color: none;
+    border: none;
+    padding: 0.5rem 0rem;
+    color: #ffffffb2;
+  }
+  /* Section - 1 */
+  .gmat-sec-1 {
+    padding: 3rem 1rem;
+    padding-top: 5rem;
+  }
+  .gmat-sec-1 .sec-1-cols {
+    display: flex;
+    flex-direction: column-reverse;
+    justify-content: space-around;
+    align-items: center;
+  }
+  .gmat-sec-1 .sec-1-cols .img-col img {
+    width: 90vw;
+    height: 50vh;
+  }
+  .gmat-sec-1 .sec-1-cols .head-cont-col .head-col h3 {
+    font-size: 6vw;
+    text-align: center;
+    line-height: 8.5vw;
+  }
+  .gmat-sec-1 .sec-1-cols .head-cont-col .content-col h5 {
+    font-size: 2.2vw;
+    text-align: center;
+    line-height: 6vw;
+  }
+  .gmat-sec-1 .sec-1-cols .head-cont-col .btn-col {
+    text-align: center;
+  }
+  .gmat-sec-1 .sec-1-cols .head-cont-col .btn-col button {
+    text-align: center;
+    font-size: 3vw;
+    border-radius: 5px;
+    padding: 3.5vw 5.3vw;
+  }
+  /* marquee section */
+  .marquee-sec .marquee-sec-cols {
+    display: block;
+  }
+  .marquee-sec .marquee-sec-cols .head-col {
+    width: 100%;
+    padding-bottom: 1rem;
+  }
+  .marquee-sec .marquee-sec-cols .head-col h5 {
+    text-align: center;
+  }
+  .marquee-sec .marquee-sec-cols .content-col {
+    width: 100%;
+  }
+  /* Section - 3 */
+  .gmat-sec-3 {
+    padding: 1rem;
+  }
+  .gmat-sec-3 .sec-3-cols {
+    display: flex;
+    flex-direction: column-reverse;
+    align-items: center;
+  }
+  .gmat-sec-3 .sec-3-cols .content-col {
+    width: 100%;
+  }
+  .gmat-sec-3 .sec-3-cols .content-col p {
+    font-size: 3.8vw;
+    text-align: center;
+    line-height: 7vw;
+    padding-bottom: 0rem;
+    padding: 1.5rem 0;
+  }
+  .gmat-sec-3 .sec-3-cols .content-col .btn-col {
+    border-radius: 6px;
+    width: 20vh;
+    margin: auto;
+    padding: 3vw 4vw;
+  }
+  .gmat-sec-3 .sec-3-cols .content-col .btn-col button {
+    font-size: 3.6vw;
+    line-height: 1vw;
+    padding-right: 0.5rem;
+    border-radius: 13px;
+  }
+  .gmat-sec-3 .sec-3-cols .content-col .btn-col i {
+    font-size: 4vw;
+  }
+  .gmat-sec-3 .sec-3-cols .video-col {
+    background-position: bottom;
+    background-position-y: 124px;
+    width: 100%;
+    text-align: center;
+  }
+  .gmat-sec-3 .sec-3-cols .content-col h3,
+  .gmat-sec-3 .sec-3-cols .video-col h3 {
+    font-size: 5.5vw;
+    text-align: center;
+    line-height: 8.5vw;
+    padding-bottom: 4rem;
+  }
+  .gmat-sec-3 .sec-3-cols .video-col iframe {
+    width: 86vw;
+    height: 27vh;
+    margin-top: 0rem;
+    border-radius: 8px;
+  }
+  /* Section - 4 */
+  .gmat-sec-4 {
+    padding: 0.5rem 1rem;
+  }
+
+  .gmat-sec-4 .head-col {
+    padding: 2rem 0;
+    padding-bottom: 2rem;
+  }
+
+  .gmat-sec-4 .head-col h3 {
+    font-size: 1.2rem;
+    line-height: 2.3rem;
+  }
+
+  .gmat-sec-4 .gmat-sec-4-cont-form {
+    padding: 1rem 2rem;
+    border-radius: 20px;
+  }
+
+  .gmat-sec-4 .gmat-sec-4-cont-form .form-cols {
+    display: block;
+  }
+
+  .gmat-sec-4 .gmat-sec-4-cont-form form .col {
+    width: 94%;
+    margin-top: 1rem;
+  }
+
+  .gmat-sec-4 .gmat-sec-4-cont-form form p {
+    font-size: 1rem;
+  }
+
+  .gmat-sec-4 .gmat-sec-4-cont-form form input {
+    border-radius: 10px;
+    padding: 0.5rem 0.7rem;
+    width: 98%;
+    height: 25px;
+  }
+
+  .gmat-sec-4 .gmat-sec-4-cont-form form input::placeholder {
+    font-size: 0.8rem;
+  }
+
+  .gmat-sec-4 .gmat-sec-4-cont-form form .check-box input[type="checkbox"] {
+    width: 33px;
+  }
+
+  .gmat-sec-4 .gmat-sec-4-cont-form form .check-box label {
+    font-size: 0.6rem;
+    line-height: 1.2rem;
+  }
+
+  .gmat-sec-4 .gmat-sec-4-cont-form form .btn-col {
+    margin-top: 1rem;
+    margin-bottom: -2rem;
+  }
+
+  .gmat-sec-4 .gmat-sec-4-cont-form form .btn-col button {
+    font-size: 1rem;
+    padding: 1.5rem 2rem;
+    border-radius: 15px;
+  }
+}
