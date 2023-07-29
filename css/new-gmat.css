@@ -7,12 +7,10 @@ body,
 
 /* Section -2 */
 .gmat-sec-2 {
-  background: linear-gradient(
-    146deg,
-    #e1cbff 0%,
-    rgba(150, 111, 204, 0.13) 50.28%,
-    rgba(76, 20, 154, 0.02) 100%
-  );
+  background: linear-gradient(146deg,
+      #e1cbff 0%,
+      rgba(150, 111, 204, 0.13) 50.28%,
+      rgba(76, 20, 154, 0.02) 100%);
 }
 
 .gmat-sec-2 .head-h1 {
@@ -170,12 +168,10 @@ body,
 
 /* section-6 */
 .gmat-sec-6 {
-  background: linear-gradient(
-    to bottom left,
-    #e1cbff6b 0%,
-    #fff,
-    #e1cbff6b 100%
-  );
+  background: linear-gradient(to bottom left,
+      #e1cbff6b 0%,
+      #fff,
+      #e1cbff6b 100%);
   padding-bottom: 4vw;
 }
 
@@ -369,7 +365,7 @@ body,
 .section-3-split {
   display: flex;
   gap: 2em;
-  justify-content: space-between;
+  justify-content: space-between
 }
 
 /* Google review */
@@ -496,12 +492,10 @@ body,
 
 /* sectionn-8 */
 .section-8-gre {
-  background: linear-gradient(
-    to bottom left,
-    #e1cbff6b 0%,
-    #fff,
-    #e1cbff6b 100%
-  );
+  background: linear-gradient(to bottom left,
+      #e1cbff6b 0%,
+      #fff,
+      #e1cbff6b 100%);
   padding-bottom: 6vw;
   padding-top: 2vw;
 }
@@ -570,7 +564,7 @@ body,
 .p-1 {
   font-size: 2.8vw;
   font-weight: 500;
-  color: #936bc7;
+  color: #936BC7;
 }
 
 .first {
@@ -599,12 +593,12 @@ body,
 .p-4 {
   font-size: 3.8vw;
   font-weight: 600;
-  color: #da8e63;
+  color: #DA8E63;
 }
 
 .p-5 {
   font-size: 2.5vw;
-  color: #6dcabf;
+  color: #6DCABF;
   position: relative;
   font-weight: 700;
 }
@@ -620,7 +614,7 @@ body,
 
 .p-6 {
   font-weight: 700;
-  color: #6dcabf;
+  color: #6DCABF;
   font-size: 1.5vw;
 }
 
@@ -632,14 +626,14 @@ body,
 
 .p-8 {
   font-weight: 800;
-  color: #7235c4;
+  color: #7235C4;
   font-size: 4vw;
   position: relative;
   top: -0.5vw;
 }
 
 .p-9 {
-  color: #a8aa37;
+  color: #A8AA37;
   font-size: 2vw;
   position: relative;
   top: -1vw;
@@ -647,7 +641,7 @@ body,
 }
 
 .p-10 {
-  color: #da8e63;
+  color: #DA8E63;
   font-size: 2vw;
   position: relative;
   top: -1vw;
@@ -655,7 +649,7 @@ body,
 }
 
 .p-11 {
-  color: #6dcabf;
+  color: #6DCABF;
   font-size: 2.2vw;
   position: relative;
   top: -2vw;
@@ -663,13 +657,13 @@ body,
 }
 
 .p-12 {
-  color: #6d31bf;
+  color: #6D31BF;
   font-size: 2.4vw;
   font-weight: 700;
 }
 
 .p-13 {
-  color: #da8e63;
+  color: #DA8E63;
   font-size: 2.2vw;
   position: relative;
   top: -2vw;
@@ -684,7 +678,7 @@ body,
 }
 
 .p-15 {
-  color: #936bc7;
+  color: #936BC7;
   font-size: 2vw;
   font-weight: 500;
 }
@@ -733,7 +727,7 @@ img.second {
   height: 25px;
   appearance: none;
   -webkit-appearance: none;
-  background-color: #682cba;
+  background-color: #682CBA;
   border-radius: 5px;
   outline: none;
   border: 2px solid #fff;
@@ -743,7 +737,7 @@ img.second {
 .input-box:checked::before {
   content: "\2713";
   position: absolute;
-  background: #682cba;
+  background: #682CBA;
   font-size: 16px;
   color: #fff;
   width: 20px;
@@ -1025,7 +1019,7 @@ img.second {
   .gmat-profile-sec-7 .gmat-sec-7-container .gmat-sec-7-cols {
     grid-template-columns: auto auto;
     grid-row-gap: 10vw;
-    grid-column-gap: 6vw;
+    grid-column-gap: 6vw
   }
 
   .rotman {
@@ -1715,6 +1709,7 @@ img.second {
   align-items: center;
 }
 
+
 .gmat-sec-4 .gmat-sec-4-cont-form form .check-box label {
   color: #fff;
   font-size: 1rem;
@@ -1757,11 +1752,9 @@ img.second {
   margin: auto;
   width: 100%;
   margin: auto;
-  background: linear-gradient(
-    180deg,
-    rgba(255, 255, 255, 0) 0%,
-    rgba(48, 48, 48, 0.68) 100%
-  );
+  background: linear-gradient(180deg,
+      rgba(255, 255, 255, 0) 0%,
+      rgba(48, 48, 48, 0.68) 100%);
 }
 
 .popup-1-cols {
@@ -1812,6 +1805,7 @@ img.second {
 
 /* -----------**************Tab-View***************----------------- */
 @media (min-width: 768px) and (max-width: 1024px) {
+
   /* popup */
   .popup-1-cols {
     width: 80%;
