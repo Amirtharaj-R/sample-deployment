@@ -185,7 +185,7 @@ body,
   background-repeat: no-repeat;
   padding: 7rem 0;
   background-position-y: 227px;
-  background-image: url(../Assets/new-gmat/background-image.svg);
+  background-image: url(Assets/new-gmat/background-image.svg);
 }
 
 .gmat-sec-6-card-1,
@@ -264,7 +264,7 @@ body,
 }
 
 .gmat-sec-7 {
-  background-image: url("../Assets/back-vector.png");
+  background-image: url("Assets/back-vector.png");
   background-size: 100%;
   background-repeat: no-repeat;
 }
@@ -380,7 +380,7 @@ body,
 
 #carousel-stop2 {
   width: 65%;
-  background-image: url("../Assets/new-gmat/google-logo.png");
+  background-image: url("Assets/new-gmat/google-logo.png");
   background-repeat: no-repeat;
   background-position: center;
 }
@@ -449,7 +449,7 @@ body,
 /* Section - 7 */
 
 .gmat-sec-7-cols {
-  background: url("../Assets/new-gmat/world-map.png");
+  background: url("Assets/new-gmat/world-map.png");
   padding-bottom: 4rem;
   background-position: center;
   background-size: contain;
@@ -1428,7 +1428,7 @@ html {
 .gmat-sec-1 {
   padding: 3rem 2rem;
   /* background: linear-gradient(167deg, #682cba 0%, #4a1297 100%); */
-  background-image: url("../Assets/new-gmat/sec-1-back-img.svg");
+  background-image: url("Assets/new-gmat/sec-1-back-img.svg");
   padding-top: 5rem;
   background-size: cover;
   background-position: center;
@@ -1621,7 +1621,7 @@ html {
 }
 
 .gmat-sec-3 .sec-3-cols .video-col {
-  background-image: url(../Assets/new-gmat/video-back-img.png);
+  background-image: url(Assets/new-gmat/video-back-img.png);
   background-size: 37vw;
   background-position: top center;
   background-repeat: no-repeat;
@@ -1646,7 +1646,7 @@ html {
 
 /* Section - 4 */
 .gmat-sec-4 {
-  background-image: url("../Assets/gre/new-gre/form-sec.svg");
+  background-image: url("Assets/gre/new-gre/form-sec.svg");
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
