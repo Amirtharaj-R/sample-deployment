@@ -810,6 +810,7 @@ img.second {
     font-size: 5.3vw !important;
     text-align: center !important;
     line-height: 8vw;
+    padding-bottom: 3rem;
   }
 
   .gmat-sec-2 {
@@ -1844,6 +1845,15 @@ html {
 
 /* -----------**************Tab-View***************----------------- */
 @media (min-width: 768px) and (max-width: 1024px) {
+
+  /* background img */
+  .gmat-background-color {
+    background-position: bottom;
+    background-size: 192vw;
+    padding: 3rem 0;
+    background-position-y: 104px;
+    background-image: url(Assets/new-gmat/background-image.svg);
+}
   /* hover */
   .gmat-sec-6-card-1:hover::before {
     top: 0;
@@ -1997,6 +2007,23 @@ html {
 /* -----------**************Mobile-View***************----------------- */
 
 @media (max-width: 767px) {
+  /* hover section */
+  .gmat-sec-6-card-1, .gmat-sec-6-card-2 {
+    background-color: #fff;
+    padding: 7vw 0.5vw;
+    text-align: center;
+    border-radius: 7.2px;
+    box-shadow: 0 7.5px 33px 0 rgba(0,0,0,.07);
+}
+.gmat-background-color {
+  background-position: bottom;
+  background-size: 154rem;
+  background-position-y: 5px;
+  padding-bottom: 4rem;
+  /* padding: 1rem 0; */
+  background-image: url(Assets/new-gmat/background-image.svg);
+}
+  /*  */
   .gmat-sec-6-innner-card-split {
     grid-auto-flow: dense;
   }
